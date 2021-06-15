@@ -106,6 +106,7 @@
                             <div>
                                 <div>
                                     <img v-for="n in card.vote" src="./dist/img/starfull.svg" alt="Stella Piena">
+                                    <img v-for="n in (5 - card.vote)" src="./dist/img/staremptyl.svg" alt="Stella Vuota">
                                 </div>
                                 <div class="price_card_1">
                                     <span>${{card.fullPrice}}</span>
