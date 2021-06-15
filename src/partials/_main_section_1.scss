@@ -1,23 +1,20 @@
 main {
   section:first-child {
-    display: flex;
-    div {
-      background-color: #ff4450;
-      width: 60%;
-      /* clip-path: polygon(0 0, 70% 0%, 100% 100%, 0% 100%); */
-      position: relative;
-      z-index: 1;
-      color: white;
-      .container {
-        height: 100%;
-        padding-left: 100px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-      }
-    }
+    background-color: #ff4450;
+    position: relative;
     img {
-      width: 60%;
+      width: 50%;
+      clip-path: polygon(0 0, 100% 0, 100% 100%, 20% 100%);
+      position: relative;
+      left: 100%;
+      transform: translateX(-100%);
+    }
+    div {
+      position: absolute;
+      left: 150px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: white;
     }
   }
 }
