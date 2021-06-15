@@ -117,3 +117,25 @@ header #app .header_dark_c .container.header_dark span {
 header #app .header_dark_c .container.header_dark span i {
   margin-right: 5px;
 }
+
+main section:first-child {
+  display: flex;
+}
+main section:first-child div {
+  background-color: #ff4450;
+  width: 60%;
+  /* clip-path: polygon(0 0, 70% 0%, 100% 100%, 0% 100%); */
+  position: relative;
+  z-index: 1;
+  color: white;
+}
+main section:first-child div .container {
+  height: 100%;
+  padding-left: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+main section:first-child img {
+  width: 60%;
+}

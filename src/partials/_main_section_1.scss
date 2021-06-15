@@ -1,0 +1,23 @@
+main {
+  section:first-child {
+    display: flex;
+    div {
+      background-color: #ff4450;
+      width: 60%;
+      /* clip-path: polygon(0 0, 70% 0%, 100% 100%, 0% 100%); */
+      position: relative;
+      z-index: 1;
+      color: white;
+      .container {
+        height: 100%;
+        padding-left: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+    }
+    img {
+      width: 60%;
+    }
+  }
+}
