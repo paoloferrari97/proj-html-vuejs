@@ -187,3 +187,10 @@ main section:nth-child(2) .card_sec_1 > div .category_card_1 {
   color: #aaaaaa;
   font-size: 10px;
 }
+
+main section:nth-child(3) {
+  background-image: url("../img/bg.png");
+  height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
