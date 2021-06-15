@@ -33,3 +33,65 @@ const app = new Vue({
         
     }
 });
+
+const card_1 = new Vue({
+    el: "#card_1",
+    data: {
+        cards: [
+            {
+                img: "895786_7b4b_2-272x161.jpg",
+                category: "Development",
+                title: "The Complete iOS 10 & Swift 3 Developer Course",
+                vote: "4.2",
+                fullPrice: "199.99",
+                price: "100"
+            },
+            {
+                img: "246154_d8b0_3-272x161.jpg",
+                category: "Development",
+                title: "Web Design for Beginners: Real World Coding in HTML & CSS",
+                vote: "4.6",
+                fullPrice: "129.99",
+                price: "65"
+            },
+            {
+                img: "752950_b773-272x161.jpg",
+                category: "Development",
+                title: "GitHub Ultimate: Master Git and GitHub - Beginner to Expert",
+                vote: "4.2",
+                fullPrice: "99.99",
+                price: "50"
+            },
+            {
+                img: "1253188_58f7_2-272x161.jpg",
+                category: "Development",
+                title: "The Complete iOS 11 & Swift Developer Course - Build 20 Apps",
+                vote: "4.1",
+                fullPrice: "199.99",
+                price: "100"
+            },
+            {
+                img: "919872_ed54_6-272x161.jpg",
+                category: "Development",
+                title: "Android Java Masterclass - Become an App Developer",
+                vote: "4.3",
+                fullPrice: "99.99",
+                price: "50"
+            },
+            {
+                img: "951684_9c1a_2-272x161.jpg",
+                category: "Development",
+                title: "Xamarin Forms: Build Native Cross-platform Apps with C#",
+                vote: "4.2",
+                fullPrice: "189.99",
+                price: "95"
+            }
+        ]
+    },
+    methods: {
+        
+    },
+    mounted() {
+        
+    }
+});

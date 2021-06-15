@@ -83,6 +83,41 @@
             <img src="./dist/img/slide-1.jpg" alt="">
         </section>
         <!-- /section 1 -->
+
+        <!-- section 2 -->
+        <section>
+            <div class="container">
+                <h5>Popular Development Courses</h5>
+                <div id="card_1">
+                    <div v-for="card in cards">
+                        <img :src="'./dist/img/' + card.img" alt="">
+                        <p class="category_card_1">{{card.category}} ></p>
+                        <p>{{card.title}}</p>
+                        <hr>
+                        <!-- <div>
+                            <span>
+                                <img v-for="n in card.vote" src="./dist/img/starfull.svg" alt="">
+                            </span>
+                            <div>
+                                <span>{{card.fullPrice}}</span>
+                                <span>{{card.price}}</span>
+                            </div>
+                        </div> -->
+                        <div>
+                            <div>
+                                <img v-for="n in card.vote" src="./dist/img/starfull.svg" alt="Stella Piena">
+                            </div>
+                            <div class="price_card_1">
+                                <span>${{card.fullPrice}}</span>
+                                <span>${{card.price}}</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /section 2 -->
+
     </main>
     <!-- /main -->
 

@@ -119,6 +119,7 @@ header #app .header_dark_c .container.header_dark span i {
 }
 
 main section:first-child {
+  margin-top: 20px;
   background-color: #ff4450;
   position: relative;
 }
@@ -136,4 +137,53 @@ main section:first-child div {
   top: 50%;
   transform: translateY(-50%);
   color: white;
+}
+
+main section:nth-child(2) {
+  padding: 50px 0;
+}
+main section:nth-child(2) h5 {
+  margin-bottom: 20px;
+}
+main section:nth-child(2) #card_1 {
+  display: flex;
+  justify-content: space-between;
+}
+main section:nth-child(2) #card_1 > div {
+  width: 170px;
+  border: 1px solid #aaaaaa;
+}
+main section:nth-child(2) #card_1 > div img {
+  max-width: 100%;
+  border: 0;
+}
+main section:nth-child(2) #card_1 > div hr {
+  margin: 0 10px;
+}
+main section:nth-child(2) #card_1 > div > div {
+  margin: 10px;
+  border: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main section:nth-child(2) #card_1 > div > div .price_card_1 {
+  display: flex;
+  flex-direction: column;
+}
+main section:nth-child(2) #card_1 > div > div .price_card_1 span {
+  font-size: 13px;
+  line-height: 12px;
+}
+main section:nth-child(2) #card_1 > div > div .price_card_1 span:first-child {
+  color: #aaaaaa;
+  text-decoration: line-through;
+}
+main section:nth-child(2) #card_1 > div p {
+  margin: 10px 10px;
+  font-size: 13px;
+}
+main section:nth-child(2) #card_1 > div .category_card_1 {
+  color: #aaaaaa;
+  font-size: 10px;
 }
