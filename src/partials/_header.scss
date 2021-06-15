@@ -1,0 +1,21 @@
+header {
+  #app {
+    .container.header_navbar {
+      color: $scritte_grigio;
+      display: flex;
+      justify-content: space-between;
+      padding: 20px 0;
+      border-bottom: 1px solid $scritte_grigio;
+      a {
+        margin-left: 20px;
+      }
+      i {
+        font-size: 15px;
+        margin-left: 5px;
+      }
+      span {
+        margin-left: 15px;
+      }
+    }
+  }
+}

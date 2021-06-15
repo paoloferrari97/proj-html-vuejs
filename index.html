@@ -14,7 +14,23 @@
 </head>
 <body>
 
-    
+    <!-- header -->
+    <header>
+        <div id="app">
+            <!-- navbar -->
+            <div class="container header_navbar">
+                <span>English <i class="fas fa-chevron-down    "></i></span>
+                <div>
+                    <a v-for="link in linkNavbar">{{link}}</a>
+                    <span>
+                        <i v-for="social in socials" :class="'fab fa-' + social"></i>
+                    </span>
+                </div>
+            </div>
+            <!-- /navbar -->
+        </div>
+    </header>
+    <!-- /header -->
 
     <!-- VueJS -->
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
