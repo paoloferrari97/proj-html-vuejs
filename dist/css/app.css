@@ -19,40 +19,40 @@ body {
   border-radius: 30px;
 }
 
-header #app .container.header_navbar {
+header .header .container.header_navbar {
   color: #aaaaaa;
   display: flex;
   justify-content: space-between;
   padding: 20px 0;
   border-bottom: 1px solid #aaaaaa;
 }
-header #app .container.header_navbar a {
+header .header .container.header_navbar a {
   margin-left: 20px;
 }
-header #app .container.header_navbar i {
+header .header .container.header_navbar i {
   font-size: 15px;
   margin-left: 5px;
 }
-header #app .container.header_navbar span {
+header .header .container.header_navbar span {
   margin-left: 15px;
 }
-header #app .container.header_main {
+header .header .container.header_main {
   padding: 20px 0;
   color: #292f47;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-header #app .container.header_main .category {
+header .header .container.header_main .category {
   font-size: 12px;
   display: flex;
   align-items: center;
 }
-header #app .container.header_main .category span {
+header .header .container.header_main .category span {
   margin-right: 10px;
   margin-left: 5px;
 }
-header #app .container.header_main .category input {
+header .header .container.header_main .category input {
   background-color: #f0f2f5;
   border: 0;
   outline: none;
@@ -61,7 +61,7 @@ header #app .container.header_main .category input {
   padding-left: 10px;
   width: 200px;
 }
-header #app .container.header_main .category div {
+header .header .container.header_main .category div {
   margin-left: 0;
   outline: none;
   border: 0;
@@ -70,7 +70,7 @@ header #app .container.header_main .category div {
   width: 50px;
   position: relative;
 }
-header #app .container.header_main .category div i {
+header .header .container.header_main .category div i {
   font-size: 15px;
   color: white;
   position: absolute;
@@ -78,43 +78,43 @@ header #app .container.header_main .category div i {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-header #app .container.header_main .become_inst {
+header .header .container.header_main .become_inst {
   font-size: 13px;
 }
-header #app .container.header_main .become_inst span i {
+header .header .container.header_main .become_inst span i {
   color: #3a78bd;
   margin-right: 5px;
 }
-header #app .container.header_main .become_inst span:first-child {
+header .header .container.header_main .become_inst span:first-child {
   margin-right: 15px;
 }
-header #app .container.header_main .log_in {
+header .header .container.header_main .log_in {
   font-size: 13px;
   color: #3a78bd;
 }
-header #app .container.header_main .log_in button {
+header .header .container.header_main .log_in button {
   margin: 0 10px;
 }
-header #app .container.header_main .log_in button:hover {
+header .header .container.header_main .log_in button:hover {
   background-color: #46c197;
 }
-header #app .container.header_main .log_in > i {
+header .header .container.header_main .log_in > i {
   font-size: 20px;
 }
-header #app .header_dark_c {
+header .header .header_dark_c {
   background-color: #273044;
 }
-header #app .header_dark_c .container.header_dark {
+header .header .header_dark_c .container.header_dark {
   padding: 20px 0;
   color: white;
   font-size: 13px;
   display: flex;
   justify-content: center;
 }
-header #app .header_dark_c .container.header_dark span {
+header .header .header_dark_c .container.header_dark span {
   margin: 0 10px;
 }
-header #app .header_dark_c .container.header_dark span i {
+header .header .header_dark_c .container.header_dark span i {
   margin-right: 5px;
 }
 
@@ -145,45 +145,45 @@ main section:nth-child(2) {
 main section:nth-child(2) h5 {
   margin-bottom: 20px;
 }
-main section:nth-child(2) #card_1 {
+main section:nth-child(2) .card_sec_1 {
   display: flex;
   justify-content: space-between;
 }
-main section:nth-child(2) #card_1 > div {
+main section:nth-child(2) .card_sec_1 > div {
   width: 170px;
   border: 1px solid #aaaaaa;
 }
-main section:nth-child(2) #card_1 > div img {
+main section:nth-child(2) .card_sec_1 > div img {
   max-width: 100%;
   border: 0;
 }
-main section:nth-child(2) #card_1 > div hr {
+main section:nth-child(2) .card_sec_1 > div hr {
   margin: 0 10px;
 }
-main section:nth-child(2) #card_1 > div > div {
+main section:nth-child(2) .card_sec_1 > div > div {
   margin: 10px;
   border: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-main section:nth-child(2) #card_1 > div > div .price_card_1 {
+main section:nth-child(2) .card_sec_1 > div > div .price_card_1 {
   display: flex;
   flex-direction: column;
 }
-main section:nth-child(2) #card_1 > div > div .price_card_1 span {
+main section:nth-child(2) .card_sec_1 > div > div .price_card_1 span {
   font-size: 13px;
   line-height: 12px;
 }
-main section:nth-child(2) #card_1 > div > div .price_card_1 span:first-child {
+main section:nth-child(2) .card_sec_1 > div > div .price_card_1 span:first-child {
   color: #aaaaaa;
   text-decoration: line-through;
 }
-main section:nth-child(2) #card_1 > div p {
+main section:nth-child(2) .card_sec_1 > div p {
   margin: 10px 10px;
   font-size: 13px;
 }
-main section:nth-child(2) #card_1 > div .category_card_1 {
+main section:nth-child(2) .card_sec_1 > div .category_card_1 {
   color: #aaaaaa;
   font-size: 10px;
 }

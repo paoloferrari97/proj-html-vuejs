@@ -24,19 +24,7 @@ const app = new Vue({
                 name: "Office Productivity",
                 icon: "fas fa-print"
             }
-        ]
-    },
-    methods: {
-        
-    },
-    mounted() {
-        
-    }
-});
-
-const card_1 = new Vue({
-    el: "#card_1",
-    data: {
+        ],
         cards: [
             {
                 img: "895786_7b4b_2-272x161.jpg",
