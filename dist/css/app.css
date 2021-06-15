@@ -95,6 +95,9 @@ header #app .container.header_main .log_in {
 header #app .container.header_main .log_in button {
   margin: 0 10px;
 }
+header #app .container.header_main .log_in button:hover {
+  background-color: #46c197;
+}
 header #app .container.header_main .log_in > i {
   font-size: 20px;
 }
