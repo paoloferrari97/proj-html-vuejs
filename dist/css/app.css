@@ -18,6 +18,9 @@ body {
   font-weight: 600;
   border-radius: 30px;
 }
+.btn_1:hover {
+  background-color: #46c197;
+}
 
 header .header .container.header_navbar {
   color: #aaaaaa;
@@ -94,9 +97,6 @@ header .header .container.header_main .log_in {
 }
 header .header .container.header_main .log_in button {
   margin: 0 10px;
-}
-header .header .container.header_main .log_in button:hover {
-  background-color: #46c197;
 }
 header .header .container.header_main .log_in > i {
   font-size: 20px;
@@ -193,4 +193,19 @@ main section:nth-child(3) {
   height: 400px;
   background-size: cover;
   background-repeat: no-repeat;
+  position: relative;
+}
+main section:nth-child(3) .container span {
+  position: absolute;
+  top: 50%;
+  left: 250px;
+  transform: translateY(-50%);
+}
+main section:nth-child(3) .container span h1 {
+  width: 400px;
+  margin-bottom: 30px;
+}
+main section:nth-child(3) .container span h6 {
+  width: 500px;
+  margin-bottom: 30px;
 }

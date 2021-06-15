@@ -4,5 +4,22 @@ main {
     height: 400px;
     background-size: cover;
     background-repeat: no-repeat;
+    position: relative;
+    .container {
+      span {
+        position: absolute;
+        top: 50%;
+        left: 250px;
+        transform: translateY(-50%);
+        h1 {
+          width: 400px;
+          margin-bottom: 30px;
+        }
+        h6 {
+          width: 500px;
+          margin-bottom: 30px;
+        }
+      }
+    }
   }
 }
