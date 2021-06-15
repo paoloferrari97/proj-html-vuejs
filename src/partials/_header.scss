@@ -17,5 +17,69 @@ header {
         margin-left: 15px;
       }
     }
+    .container.header_main {
+      padding: 20px 0;
+      color: $scritte_blu_header;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .category {
+        font-size: 12px;
+        display: flex;
+        align-items: center;
+        span {
+          margin-right: 10px;
+          margin-left: 5px;
+        }
+        input {
+          background-color: #f0f2f5;
+          border: 0;
+          outline: none;
+          margin-right: 0;
+          height: 40px;
+          padding-left: 10px;
+          width: 200px;
+        }
+        div {
+          margin-left: 0;
+          outline: none;
+          border: 0;
+          background-color: #457992;
+          height: 40px;
+          width: 50px;
+          position: relative;
+          i {
+            font-size: 15px;
+            color: white;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+          }
+        }
+      }
+      .become_inst {
+        font-size: 13px;
+        span {
+          i {
+            color: #3a78bd;
+            margin-right: 5px;
+          }
+          &:first-child {
+            margin-right: 15px;
+          }
+        }
+      }
+      .log_in {
+        font-size: 13px;
+        color: #3a78bd;
+        button {
+          margin: 0 10px;
+        }
+        & > i {
+          font-size: 20px;
+        }
+      }
+    }
   }
 }

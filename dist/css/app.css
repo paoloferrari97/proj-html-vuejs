@@ -4,6 +4,21 @@
   margin: 0;
 }
 
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.btn_1 {
+  background-color: #ff4450;
+  padding: 20px 30px;
+  outline: none;
+  border: 0;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 30px;
+}
+
 header #app .container.header_navbar {
   color: #aaaaaa;
   display: flex;
@@ -20,4 +35,66 @@ header #app .container.header_navbar i {
 }
 header #app .container.header_navbar span {
   margin-left: 15px;
+}
+header #app .container.header_main {
+  padding: 20px 0;
+  color: #292f47;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header #app .container.header_main .category {
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+}
+header #app .container.header_main .category span {
+  margin-right: 10px;
+  margin-left: 5px;
+}
+header #app .container.header_main .category input {
+  background-color: #f0f2f5;
+  border: 0;
+  outline: none;
+  margin-right: 0;
+  height: 40px;
+  padding-left: 10px;
+  width: 200px;
+}
+header #app .container.header_main .category div {
+  margin-left: 0;
+  outline: none;
+  border: 0;
+  background-color: #457992;
+  height: 40px;
+  width: 50px;
+  position: relative;
+}
+header #app .container.header_main .category div i {
+  font-size: 15px;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+header #app .container.header_main .become_inst {
+  font-size: 13px;
+}
+header #app .container.header_main .become_inst span i {
+  color: #3a78bd;
+  margin-right: 5px;
+}
+header #app .container.header_main .become_inst span:first-child {
+  margin-right: 15px;
+}
+header #app .container.header_main .log_in {
+  font-size: 13px;
+  color: #3a78bd;
+}
+header #app .container.header_main .log_in button {
+  margin: 0 10px;
+}
+header #app .container.header_main .log_in > i {
+  font-size: 20px;
 }
