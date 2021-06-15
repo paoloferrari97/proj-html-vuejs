@@ -52,6 +52,16 @@
                 </div>
             </div>
             <!-- /main header -->
+            <!-- dark section header -->
+            <div class="header_dark_c">
+                <div class="container header_dark">
+                    <span v-for="activity in activities">
+                        <i :class="activity.icon"></i>
+                        {{activity.name}}
+                    </span>
+                </div>
+            </div>
+            <!-- dark section header -->
         </div>
     </header>
     <!-- /header -->

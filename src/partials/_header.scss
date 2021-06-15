@@ -81,5 +81,21 @@ header {
         }
       }
     }
+    .header_dark_c {
+      background-color: #273044;
+      .container.header_dark {
+        padding: 20px 0;
+        color: white;
+        font-size: 13px;
+        display: flex;
+        justify-content: center;
+        span {
+          margin: 0 10px;
+          i {
+            margin-right: 5px;
+          }
+        }
+      }
+    }
   }
 }

@@ -98,3 +98,19 @@ header #app .container.header_main .log_in button {
 header #app .container.header_main .log_in > i {
   font-size: 20px;
 }
+header #app .header_dark_c {
+  background-color: #273044;
+}
+header #app .header_dark_c .container.header_dark {
+  padding: 20px 0;
+  color: white;
+  font-size: 13px;
+  display: flex;
+  justify-content: center;
+}
+header #app .header_dark_c .container.header_dark span {
+  margin: 0 10px;
+}
+header #app .header_dark_c .container.header_dark span i {
+  margin-right: 5px;
+}
