@@ -227,6 +227,9 @@ main section:nth-child(4) > span {
   justify-content: center;
   margin-bottom: 30px;
 }
+main section:nth-child(4) > span .btn_1 {
+  margin: 50px 0;
+}
 main section:nth-child(4) > span span {
   font-size: 15px;
   margin: 0 10px;
