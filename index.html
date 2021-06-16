@@ -120,13 +120,13 @@
             <section>
                 <h1>Recent courses</h1>
                 <span>
-                    <span v-for="category in categories" @click="select_category(category)">
+                    <span v-for="category in categories" @click="select_category(category)" :class="category == category_selected ? 'selezionato' : 'no_selezionato'">
                         {{category}}
                     </span>
                 </span>
                 <div class="container">
                     <div class="card_sec_1">
-                        <div v-for="card in cardsSec4">
+                        <div v-for="card in cardsSec4" v-if="card.tags.includes(category_selected)">
                             <img :src="'./dist/img/' + card.img" alt="">
                             <p class="category_card_1">{{card.category}} ></p>
                             <p>{{card.title}}</p>
