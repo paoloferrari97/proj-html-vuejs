@@ -388,6 +388,24 @@ footer {
 footer > div:first-child {
   padding: 60px 0;
 }
+footer > div:first-child .container {
+  display: flex;
+}
+footer > div:first-child .container > div {
+  width: 25%;
+}
+footer > div:first-child .container > div img {
+  max-width: 100%;
+}
+footer > div:first-child .container > div h5 {
+  margin-bottom: 20px;
+}
+footer > div:first-child .container > div p {
+  font-size: 13px;
+}
+footer > div:first-child .container > div .mail {
+  color: #aaaaaa;
+}
 footer > div:nth-child(2) {
   border-top: 1px solid #aaaaaa;
 }

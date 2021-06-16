@@ -3,6 +3,24 @@ footer {
   color: white;
   & > div:first-child {
     padding: 60px 0;
+    .container {
+      display: flex;
+      & > div {
+        width: 25%;
+        img {
+          max-width: 100%;
+        }
+        h5 {
+          margin-bottom: 20px;
+        }
+        p {
+          font-size: 13px;
+        }
+        .mail {
+          color: $scritte_grigio;
+        }
+      }
+    }
   }
   & > div:nth-child(2) {
     border-top: 1px solid $scritte_grigio;
