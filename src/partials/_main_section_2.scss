@@ -4,47 +4,5 @@ main {
     h5 {
       margin-bottom: 20px;
     }
-    .card_sec_1 {
-      display: flex;
-      justify-content: space-between;
-      & > div {
-        width: 170px;
-        border: 1px solid $scritte_grigio;
-        img {
-          max-width: 100%;
-          border: 0;
-        }
-        hr {
-          margin: 0 10px;
-        }
-        & > div {
-          margin: 10px;
-          border: 0;
-          display: flex;
-          justify-content: space-between;
-          align-items: center;
-          .price_card_1 {
-            display: flex;
-            flex-direction: column;
-            span {
-              font-size: 13px;
-              line-height: 12px;
-              &:first-child {
-                color: $scritte_grigio;
-                text-decoration: line-through;
-              }
-            }
-          }
-        }
-        p {
-          margin: 10px 10px;
-          font-size: 13px;
-        }
-        .category_card_1 {
-          color: $scritte_grigio;
-          font-size: 10px;
-        }
-      }
-    }
   }
 }

@@ -22,6 +22,51 @@ body {
   background-color: #46c197;
 }
 
+.card_sec_1 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.card_sec_1 > div {
+  width: 170px;
+  border: 1px solid #aaaaaa;
+  margin: 10px 0;
+}
+.card_sec_1 > div img {
+  max-width: 100%;
+  border: 0;
+}
+.card_sec_1 > div hr {
+  margin: 0 10px;
+}
+.card_sec_1 > div > div {
+  margin: 10px;
+  border: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card_sec_1 > div > div .price_card_1 {
+  display: flex;
+  flex-direction: column;
+}
+.card_sec_1 > div > div .price_card_1 span {
+  font-size: 13px;
+  line-height: 12px;
+}
+.card_sec_1 > div > div .price_card_1 span:first-child {
+  color: #aaaaaa;
+  text-decoration: line-through;
+}
+.card_sec_1 > div p {
+  margin: 10px 10px;
+  font-size: 13px;
+}
+.card_sec_1 > div .category_card_1 {
+  color: #aaaaaa;
+  font-size: 10px;
+}
+
 header .header .container.header_navbar {
   color: #aaaaaa;
   display: flex;
@@ -147,48 +192,6 @@ main section:nth-child(2) {
 }
 main section:nth-child(2) h5 {
   margin-bottom: 20px;
-}
-main section:nth-child(2) .card_sec_1 {
-  display: flex;
-  justify-content: space-between;
-}
-main section:nth-child(2) .card_sec_1 > div {
-  width: 170px;
-  border: 1px solid #aaaaaa;
-}
-main section:nth-child(2) .card_sec_1 > div img {
-  max-width: 100%;
-  border: 0;
-}
-main section:nth-child(2) .card_sec_1 > div hr {
-  margin: 0 10px;
-}
-main section:nth-child(2) .card_sec_1 > div > div {
-  margin: 10px;
-  border: 0;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-main section:nth-child(2) .card_sec_1 > div > div .price_card_1 {
-  display: flex;
-  flex-direction: column;
-}
-main section:nth-child(2) .card_sec_1 > div > div .price_card_1 span {
-  font-size: 13px;
-  line-height: 12px;
-}
-main section:nth-child(2) .card_sec_1 > div > div .price_card_1 span:first-child {
-  color: #aaaaaa;
-  text-decoration: line-through;
-}
-main section:nth-child(2) .card_sec_1 > div p {
-  margin: 10px 10px;
-  font-size: 13px;
-}
-main section:nth-child(2) .card_sec_1 > div .category_card_1 {
-  color: #aaaaaa;
-  font-size: 10px;
 }
 
 main section:nth-child(3) {

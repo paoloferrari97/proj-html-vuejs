@@ -82,7 +82,7 @@
             <section>
                 <div class="container">
                     <h5>Popular Development Courses</h5>
-                    <div id="card_1" class="card_sec_1">
+                    <div class="card_sec_1">
                         <div v-for="card in cards">
                             <img :src="'./dist/img/' + card.img" alt="">
                             <p class="category_card_1">{{card.category}} ></p>
@@ -124,6 +124,26 @@
                         {{category}}
                     </span>
                 </span>
+                <div class="container">
+                    <div class="card_sec_1">
+                        <div v-for="card in cardsSec4">
+                            <img :src="'./dist/img/' + card.img" alt="">
+                            <p class="category_card_1">{{card.category}} ></p>
+                            <p>{{card.title}}</p>
+                            <hr>
+                            <div>
+                                <div>
+                                    <img v-for="n in card.vote" src="./dist/img/starfull.svg" alt="Stella Piena">
+                                    <img v-for="n in (5 - card.vote)" src="./dist/img/staremptyl.svg" alt="Stella Vuota">
+                                </div>
+                                <div class="price_card_1">
+                                    <span>${{card.fullPrice}}</span>
+                                    <span>${{card.price}}</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </section>
             <!-- /section 4 -->
         </main>
