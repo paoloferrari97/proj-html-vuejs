@@ -1,13 +1,13 @@
 footer {
   background-color: #273044;
   color: white;
-  .container {
-    & > div:first-child {
-      padding: 60px 0;
-    }
-    & > div:nth-child(2) {
+  & > div:first-child {
+    padding: 60px 0;
+  }
+  & > div:nth-child(2) {
+    border-top: 1px solid $scritte_grigio;
+    .container {
       padding: 25px 0;
-      border-top: 1px solid white;
       img {
         width: 30px;
         margin-right: 20px;

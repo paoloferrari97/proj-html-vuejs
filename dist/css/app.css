@@ -385,20 +385,22 @@ footer {
   background-color: #273044;
   color: white;
 }
-footer .container > div:first-child {
+footer > div:first-child {
   padding: 60px 0;
 }
-footer .container > div:nth-child(2) {
-  padding: 25px 0;
-  border-top: 1px solid white;
+footer > div:nth-child(2) {
+  border-top: 1px solid #aaaaaa;
 }
-footer .container > div:nth-child(2) img {
+footer > div:nth-child(2) .container {
+  padding: 25px 0;
+}
+footer > div:nth-child(2) .container img {
   width: 30px;
   margin-right: 20px;
 }
-footer .container > div:nth-child(2) > span {
+footer > div:nth-child(2) .container > span {
   font-size: 13px;
 }
-footer .container > div:nth-child(2) > span > span {
+footer > div:nth-child(2) .container > span > span {
   text-decoration: underline;
 }
