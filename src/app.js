@@ -74,10 +74,15 @@ const app = new Vue({
                 fullPrice: "189.99",
                 price: "95"
             }
-        ]
+        ],
+        categories: ["All Categories", "Business", "Design", "Development", "IT & Software", "Lifestyle", "Marketing", "Office Productivity"],
+        category_selected: "All Categories"
     },
     methods: {
-        
+        select_category(category) {
+            this.category_selected = category;
+            //console.log(this.category_selected);
+        }
     },
     mounted() {
         

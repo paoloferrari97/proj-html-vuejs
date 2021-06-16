@@ -212,3 +212,22 @@ main section:nth-child(3) .container span h6 {
   width: 500px;
   margin-bottom: 30px;
 }
+
+main section:nth-child(4) h1 {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+main section:nth-child(4) > span {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+main section:nth-child(4) > span span {
+  font-size: 15px;
+  margin: 0 10px;
+  color: #aaaaaa;
+}
+main section:nth-child(4) > span span:hover {
+  cursor: pointer;
+}

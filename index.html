@@ -116,6 +116,16 @@
             </section>
             <!-- /section 3 -->
 
+            <!-- section 4 -->
+            <section>
+                <h1>Recent courses</h1>
+                <span>
+                    <span v-for="category in categories" @click="select_category(category)">
+                        {{category}}
+                    </span>
+                </span>
+            </section>
+            <!-- /section 4 -->
         </main>
         <!-- /main -->
     </div>

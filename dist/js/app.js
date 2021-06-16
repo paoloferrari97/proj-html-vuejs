@@ -70,9 +70,16 @@ var app = new Vue({
       vote: 4,
       fullPrice: "189.99",
       price: "95"
-    }]
+    }],
+    categories: ["All Categories", "Business", "Design", "Development", "IT & Software", "Lifestyle", "Marketing", "Office Productivity"],
+    category_selected: "All Categories"
   },
-  methods: {},
+  methods: {
+    select_category: function select_category(category) {
+      this.category_selected = category;
+      console.log(this.category_selected);
+    }
+  },
   mounted: function mounted() {}
 });
 

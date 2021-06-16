@@ -1,0 +1,22 @@
+main {
+  section:nth-child(4) {
+    h1 {
+      text-align: center;
+      margin-top: 50px;
+      margin-bottom: 30px;
+    }
+    & > span {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 30px;
+      span {
+        font-size: 15px;
+        margin: 0 10px;
+        color: $scritte_grigio;
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
