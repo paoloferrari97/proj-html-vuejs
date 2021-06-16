@@ -28,5 +28,42 @@ main {
         border-radius: 20px;
       }
     }
+    .red_banner {
+      background-color: #ff4450;
+      color: white;
+      .container {
+        display: flex;
+        padding: 30px 150px;
+        div:first-child {
+          width: 60%;
+          p {
+            font-size: 13px;
+          }
+        }
+        div:nth-child(2) {
+          width: 40%;
+          display: flex;
+          flex-direction: column;
+          padding-left: 20px;
+          span:first-child {
+            font-size: 13px;
+            margin-bottom: 20px;
+          }
+          span:nth-child(2) {
+            display: flex;
+            font-size: 13px;
+            input {
+              outline: none;
+              border: 0;
+              padding: 5px 10px;
+            }
+            span {
+              background-color: #457992;
+              padding: 10px 20px;
+            }
+          }
+        }
+      }
+    }
   }
 }
