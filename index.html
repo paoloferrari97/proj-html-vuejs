@@ -176,7 +176,7 @@
                     <h1>Popular courses</h1>
                     <p>Discover our most popular courses for self learning</p>
                     <div class="card_sec_1">
-                        <div v-for="(card, index) in cardsSec4" v-if="index < 6" v-if="card.tags.includes(category_selected)">
+                        <div v-for="(card, index) in cardsSec4" v-if="index < (6 + index_sec_5) && index >= index_sec_5">
                             <img :src="'./dist/img/' + card.img" alt="">
                             <p class="category_card_1">{{card.category}} ></p>
                             <p>{{card.title}}</p>
@@ -194,8 +194,8 @@
                         </div>
                     </div>
                     <div class="btn_slider">
-                        <div><i class="fas fa-chevron-left    "></i></div>
-                        <div><i class="fas fa-chevron-right    "></i></div>
+                        <div @click="index_5_remove()"><i class="fas fa-chevron-left"></i></div>
+                        <div @click="index_5_add()"><i class="fas fa-chevron-right"></i></div>
                     </div>
                 </div>
             </section>

@@ -222,12 +222,25 @@ const app = new Vue({
                 price: "95",
                 tags: ["All Categories", "Business", "Development", "IT & Software", "Office Productivity"]
             } */
-        ]
+        ],
+        index_sec_5: 0
     },
     methods: {
         select_category(category) {
             this.category_selected = category;
             //console.log(this.category_selected);
+        },
+        index_5_add() {
+            if (this.index_sec_5 === this.cardsSec4.length -1) {
+                return this.index_sec_5 = 0;
+            }
+            return this.index_sec_5++;
+        },
+        index_5_remove() {
+            if (this.index_sec_5 === 0) {
+                return this.index_sec_5 = this.cardsSec4.length -1;
+            }
+            return this.index_sec_5 -= 1;
         }
     },
     mounted() {
