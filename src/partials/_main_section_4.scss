@@ -7,15 +7,22 @@ main {
     }
     & > span {
       display: flex;
+      align-items: center;
       justify-content: center;
       margin-bottom: 30px;
       span {
         font-size: 15px;
         margin: 0 10px;
-        color: $scritte_grigio;
+        color: $scritte_blu_header;
         &:hover {
           cursor: pointer;
         }
+      }
+      .selezionato {
+        background-color: #f0f4fa;
+        color: $scritte_grigio;
+        padding: 8px 12px;
+        border-radius: 20px;
       }
     }
   }

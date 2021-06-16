@@ -24,13 +24,13 @@ body {
 
 .card_sec_1 {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
 }
 .card_sec_1 > div {
   width: 170px;
   border: 1px solid #aaaaaa;
-  margin: 10px 0;
+  margin: 10px 6px;
 }
 .card_sec_1 > div img {
   max-width: 100%;
@@ -223,14 +223,21 @@ main section:nth-child(4) h1 {
 }
 main section:nth-child(4) > span {
   display: flex;
+  align-items: center;
   justify-content: center;
   margin-bottom: 30px;
 }
 main section:nth-child(4) > span span {
   font-size: 15px;
   margin: 0 10px;
-  color: #aaaaaa;
+  color: #292f47;
 }
 main section:nth-child(4) > span span:hover {
   cursor: pointer;
+}
+main section:nth-child(4) > span .selezionato {
+  background-color: #f0f4fa;
+  color: #aaaaaa;
+  padding: 8px 12px;
+  border-radius: 20px;
 }

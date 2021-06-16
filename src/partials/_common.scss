@@ -24,12 +24,12 @@ body {
 
 .card_sec_1 {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
   & > div {
     width: 170px;
     border: 1px solid $scritte_grigio;
-    margin: 10px 0;
+    margin: 10px 6px;
     img {
       max-width: 100%;
       border: 0;
