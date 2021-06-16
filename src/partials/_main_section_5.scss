@@ -24,6 +24,13 @@ main {
           color: $scritte_grigio;
           border: 1px solid $scritte_grigio;
           background-color: white;
+          &:hover {
+            background-color: #457992;
+            border: 1px solid #457992;
+            i {
+              color: white;
+            }
+          }
           i {
             font-size: 13px;
           }

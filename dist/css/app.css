@@ -308,6 +308,13 @@ main section:nth-child(5) .container .btn_slider div {
   border: 1px solid #aaaaaa;
   background-color: white;
 }
+main section:nth-child(5) .container .btn_slider div:hover {
+  background-color: #457992;
+  border: 1px solid #457992;
+}
+main section:nth-child(5) .container .btn_slider div:hover i {
+  color: white;
+}
 main section:nth-child(5) .container .btn_slider div i {
   font-size: 13px;
 }
