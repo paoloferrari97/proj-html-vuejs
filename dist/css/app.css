@@ -318,3 +318,20 @@ main section:nth-child(5) .container .btn_slider div:hover i {
 main section:nth-child(5) .container .btn_slider div i {
   font-size: 13px;
 }
+
+main section:nth-child(6) {
+  padding: 70px 0;
+}
+main section:nth-child(6) .container {
+  display: flex;
+}
+main section:nth-child(6) .container div {
+  width: 50%;
+  border: 1px solid #aaaaaa;
+}
+main section:nth-child(6) .container div:first-child {
+  margin-right: 15px;
+}
+main section:nth-child(6) .container div:nth-child(2) {
+  margin-left: 15px;
+}
