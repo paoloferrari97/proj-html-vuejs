@@ -83,7 +83,7 @@
                 <div class="container">
                     <h5>Popular Development Courses</h5>
                     <div class="card_sec_1">
-                        <div v-for="card in cards">
+                        <div v-for="card in cardsSec4" v-if="card.category == 'Development'">
                             <img :src="'./dist/img/' + card.img" alt="">
                             <p class="category_card_1">{{card.category}} ></p>
                             <p>{{card.title}}</p>
