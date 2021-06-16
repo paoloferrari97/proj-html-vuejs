@@ -380,3 +380,25 @@ main section:nth-child(7) .container > div > div {
   transform: translate(-50%, -50%);
   transform: rotate(45deg);
 }
+
+footer {
+  background-color: #273044;
+  color: white;
+}
+footer .container > div:first-child {
+  padding: 60px 0;
+}
+footer .container > div:nth-child(2) {
+  padding: 25px 0;
+  border-top: 1px solid white;
+}
+footer .container > div:nth-child(2) img {
+  width: 30px;
+  margin-right: 20px;
+}
+footer .container > div:nth-child(2) > span {
+  font-size: 13px;
+}
+footer .container > div:nth-child(2) > span > span {
+  text-decoration: underline;
+}
