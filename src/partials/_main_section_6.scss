@@ -6,11 +6,15 @@ main {
       div {
         width: 50%;
         border: 1px solid $scritte_grigio;
+        padding: 50px 30px;
         &:first-child {
           margin-right: 15px;
         }
         &:nth-child(2) {
           margin-left: 15px;
+        }
+        img {
+          width: 35%;
         }
       }
     }

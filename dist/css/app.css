@@ -328,10 +328,14 @@ main section:nth-child(6) .container {
 main section:nth-child(6) .container div {
   width: 50%;
   border: 1px solid #aaaaaa;
+  padding: 50px 30px;
 }
 main section:nth-child(6) .container div:first-child {
   margin-right: 15px;
 }
 main section:nth-child(6) .container div:nth-child(2) {
   margin-left: 15px;
+}
+main section:nth-child(6) .container div img {
+  width: 35%;
 }
