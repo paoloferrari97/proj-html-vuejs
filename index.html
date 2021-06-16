@@ -145,7 +145,8 @@
                     </div>
                 </div>
                 <span>
-                    <button class="btn_1">SHOW ALL</button>
+                    <button id="mostra_tutti" class="btn_1" @click="showAll()">SHOW ALL</button>
+                    <button id="mostra_meno" style="display: none;" class="btn_1" @click="showLess()">SHOW LESS</button>
                 </span>
                 <div class="red_banner">
                     <div class="container">
@@ -222,6 +223,13 @@
                 </div>
             </section>
             <!-- /section 6 -->
+            <!-- section 7 -->
+            <section>
+                <div class="container">
+
+                </div>
+            </section>
+            <!-- /section 7 -->
         </main>
         <!-- /main -->
     </div>

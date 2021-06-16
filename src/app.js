@@ -186,42 +186,42 @@ const app = new Vue({
                 price: "35",
                 tags: ["All Categories", "Design", "Lifestyle"]
             },
-            /* {
+            {
                 img: "752950_b773-272x161.jpg",
                 category: "Development",
                 title: "GitHub Ultimate: Master Git and GitHub - Beginner to Expert",
                 vote: 4,
                 fullPrice: "99.99",
                 price: "50",
-                tags: ["All Categories", "Development", "IT & Software", "Marketing", "Office Productivity"]
-            }, */
-            /* {
+                tags: ["Development", "IT & Software", "Marketing", "Office Productivity"]
+            },
+            {
                 img: "1253188_58f7_2-272x161.jpg",
                 category: "Development",
                 title: "The Complete iOS 11 & Swift Developer Course - Build 20 Apps",
                 vote: 3,
                 fullPrice: "199.99",
                 price: "100",
-                tags: ["All Categories", "Business", "Design", "Development", "IT & Software", "Office Productivity"]
-            }, */
-            /* {
+                tags: ["Business", "Design", "Development", "IT & Software", "Office Productivity"]
+            },
+            {
                 img: "919872_ed54_6-272x161.jpg",
                 category: "Development",
                 title: "Android Java Masterclass - Become an App Developer",
                 vote: 5,
                 fullPrice: "99.99",
                 price: "50",
-                tags: ["All Categories", "Business", "Design", "Development", "IT & Software", "Office Productivity"]
-            }, */
-            /* {
+                tags: ["Business", "Design", "Development", "IT & Software", "Office Productivity"]
+            },
+            {
                 img: "951684_9c1a_2-272x161.jpg",
                 category: "Development",
                 title: "Xamarin Forms: Build Native Cross-platform Apps with C#",
                 vote: 4,
                 fullPrice: "189.99",
                 price: "95",
-                tags: ["All Categories", "Business", "Development", "IT & Software", "Office Productivity"]
-            } */
+                tags: ["Business", "Development", "IT & Software", "Office Productivity"]
+            }
         ],
         index_sec_5: 0
     },
@@ -241,6 +241,24 @@ const app = new Vue({
                 return this.index_sec_5 = this.cardsSec4.length -1;
             }
             return this.index_sec_5 -= 1;
+        },
+        showAll() {
+            this.cardsSec4[this.cardsSec4.length - 1].tags.push("All Categories");
+            this.cardsSec4[this.cardsSec4.length - 2].tags.push("All Categories");
+            this.cardsSec4[this.cardsSec4.length - 3].tags.push("All Categories");
+            this.cardsSec4[this.cardsSec4.length - 4].tags.push("All Categories");
+
+            document.getElementById("mostra_tutti").style.display = "none";
+            document.getElementById("mostra_meno").style.display = "block";
+        },
+        showLess() {
+            this.cardsSec4[this.cardsSec4.length - 1].tags.pop();
+            this.cardsSec4[this.cardsSec4.length - 2].tags.pop();
+            this.cardsSec4[this.cardsSec4.length - 3].tags.pop();
+            this.cardsSec4[this.cardsSec4.length - 4].tags.pop();
+
+            document.getElementById("mostra_tutti").style.display = "block";
+            document.getElementById("mostra_meno").style.display = "none";
         }
     },
     mounted() {
