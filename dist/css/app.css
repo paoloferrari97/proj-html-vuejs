@@ -138,6 +138,9 @@ main section:first-child div {
   transform: translateY(-50%);
   color: white;
 }
+main section:first-child div h5 {
+  width: 550px;
+}
 
 main section:nth-child(2) {
   padding: 50px 0;
