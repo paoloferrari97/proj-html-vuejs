@@ -281,3 +281,15 @@ main section:nth-child(4) .red_banner .container div:nth-child(2) span:nth-child
   background-color: #457992;
   padding: 10px 20px;
 }
+
+main section:nth-child(5) {
+  background-color: #f0f4fa;
+  padding: 80px 0;
+}
+main section:nth-child(5) .container h1, main section:nth-child(5) .container > p {
+  text-align: center;
+}
+main section:nth-child(5) .container > p {
+  width: 100%;
+  margin-bottom: 30px;
+}
