@@ -453,6 +453,20 @@ footer > div:first-child .container > div > div > div:nth-child(8) {
 footer > div:first-child .container > div > div > div i {
   font-size: 20px;
 }
+footer > div:first-child .container > div > div > div:hover {
+  -webkit-animation: spin 1s linear;
+          animation: spin 1s linear;
+}
+@-webkit-keyframes spin {
+  100% {
+    transform: rotate(1turn);
+  }
+}
+@keyframes spin {
+  100% {
+    transform: rotate(1turn);
+  }
+}
 footer > div:nth-child(2) {
   border-top: 1px solid #aaaaaa;
 }
