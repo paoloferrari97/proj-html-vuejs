@@ -29,7 +29,7 @@ main {
       }
     }
     .red_banner {
-      background-color: #ff4450;
+      background-color: $sfondo_rosso;
       color: white;
       .container {
         display: flex;
