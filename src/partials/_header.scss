@@ -1,3 +1,22 @@
+.side_bar {
+  position: fixed;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  padding: 10px 15px;
+  z-index: 2;
+  background-color: white;
+  align-items: center;
+  border: 1px solid $scritte_grigio;
+  border-right: 0;
+  i {
+    margin: 10px 0;
+    color: $scritte_blu_header;
+  }
+}
+
 header {
   .header {
     .container.header_navbar {
