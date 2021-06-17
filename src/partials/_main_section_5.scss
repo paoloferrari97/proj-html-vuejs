@@ -2,6 +2,7 @@ main {
   section:nth-child(5) {
     background-color: #f0f4fa;
     padding: 80px 0 40px 0;
+    color: $scritte_blu_header;
     .container {
       h1,
       & > p {
@@ -25,8 +26,8 @@ main {
           border: 1px solid $scritte_grigio;
           background-color: white;
           &:hover {
-            background-color: #457992;
-            border: 1px solid #457992;
+            background-color: $btn_due;
+            border: 1px solid $btn_due;
             i {
               color: white;
             }

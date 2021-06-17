@@ -4,6 +4,7 @@ main {
       text-align: center;
       margin-top: 50px;
       margin-bottom: 30px;
+      color: $scritte_blu_header;
     }
     & > span {
       display: flex;
@@ -16,7 +17,7 @@ main {
       span {
         font-size: 15px;
         margin: 0 10px;
-        color: $scritte_blu_header;
+        color: $scritte_blu_chiaro;
         &:hover {
           cursor: pointer;
         }
@@ -58,7 +59,7 @@ main {
               padding: 5px 10px;
             }
             span {
-              background-color: #457992;
+              background-color: $btn_due;
               padding: 10px 20px;
             }
           }

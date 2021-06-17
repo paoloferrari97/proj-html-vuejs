@@ -44,7 +44,7 @@ header {
           margin-left: 0;
           outline: none;
           border: 0;
-          background-color: #457992;
+          background-color: $btn_due;
           height: 40px;
           width: 50px;
           position: relative;
@@ -62,7 +62,7 @@ header {
         font-size: 13px;
         span {
           i {
-            color: #3a78bd;
+            color: $scritte_blu_chiaro;
             margin-right: 5px;
           }
           &:first-child {
@@ -72,7 +72,7 @@ header {
       }
       .log_in {
         font-size: 13px;
-        color: #3a78bd;
+        color: $scritte_blu_chiaro;
         button {
           margin: 0 10px;
         }

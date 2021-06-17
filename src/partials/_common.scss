@@ -26,6 +26,7 @@ body {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  color: $scritte_blu_header;
   & > div {
     width: 170px;
     border: 1px solid $scritte_grigio;

@@ -26,6 +26,7 @@ body {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  color: #273044;
 }
 .card_sec_1 > div {
   width: 170px;
@@ -86,7 +87,7 @@ header .header .container.header_navbar span {
 }
 header .header .container.header_main {
   padding: 20px 0;
-  color: #292f47;
+  color: #273044;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -130,7 +131,7 @@ header .header .container.header_main .become_inst {
   font-size: 13px;
 }
 header .header .container.header_main .become_inst span i {
-  color: #3a78bd;
+  color: #53a6ce;
   margin-right: 5px;
 }
 header .header .container.header_main .become_inst span:first-child {
@@ -138,7 +139,7 @@ header .header .container.header_main .become_inst span:first-child {
 }
 header .header .container.header_main .log_in {
   font-size: 13px;
-  color: #3a78bd;
+  color: #53a6ce;
 }
 header .header .container.header_main .log_in button {
   margin: 0 10px;
@@ -192,6 +193,7 @@ main section:nth-child(2) {
 }
 main section:nth-child(2) h5 {
   margin-bottom: 20px;
+  color: #273044;
 }
 
 main section:nth-child(3) {
@@ -200,6 +202,7 @@ main section:nth-child(3) {
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
+  color: #273044;
 }
 main section:nth-child(3) .container span {
   position: absolute;
@@ -220,6 +223,7 @@ main section:nth-child(4) h1 {
   text-align: center;
   margin-top: 50px;
   margin-bottom: 30px;
+  color: #273044;
 }
 main section:nth-child(4) > span {
   display: flex;
@@ -233,7 +237,7 @@ main section:nth-child(4) > span .btn_1 {
 main section:nth-child(4) > span span {
   font-size: 15px;
   margin: 0 10px;
-  color: #292f47;
+  color: #53a6ce;
 }
 main section:nth-child(4) > span span:hover {
   cursor: pointer;
@@ -285,6 +289,7 @@ main section:nth-child(4) .red_banner .container div:nth-child(2) span:nth-child
 main section:nth-child(5) {
   background-color: #f0f4fa;
   padding: 80px 0 40px 0;
+  color: #273044;
 }
 main section:nth-child(5) .container h1, main section:nth-child(5) .container > p {
   text-align: center;
@@ -321,6 +326,7 @@ main section:nth-child(5) .container .btn_slider div i {
 
 main section:nth-child(6) {
   padding: 70px 0;
+  color: #273044;
 }
 main section:nth-child(6) .container {
   display: flex;
@@ -347,7 +353,7 @@ main section:nth-child(6) .container > div div p {
 }
 
 main section:nth-child(7) {
-  /* background-color: #f0f4fa; */
+  color: #273044;
   padding: 60px 0;
   background-image: url("../img/testimonial-1-1917x640-1-1914x639.jpg");
   background-size: cover;
