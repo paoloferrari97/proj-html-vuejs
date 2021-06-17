@@ -12,6 +12,7 @@ var app = new Vue({
   data: {
     linkNavbar: ["Home", "Pages", "Course Formats", "Courses", "Demos"],
     socials: ["facebook-square", "twitter", "instagram", "linkedin", "google-plus", "youtube"],
+    socialsColor: ["#3b5998", "#1da1f2", "#c32aa3", "#0077b5", "#db4437", "#bd081c"],
     activities: [{
       name: "Business",
       icon: "fas fa-chart-line"
@@ -194,6 +195,13 @@ var app = new Vue({
       this.cardsSec4[this.cardsSec4.length - 4].tags.pop();
       document.getElementById("mostra_tutti").style.display = "block";
       document.getElementById("mostra_meno").style.display = "none";
+    },
+    coloraSocial: function coloraSocial(indexx) {
+      var colore = this.socialsColor[indexx];
+      document.getElementById("social" + indexx).style.color = colore;
+    },
+    scoloraSocial: function scoloraSocial(indexx) {
+      document.getElementById("social" + indexx).style.color = "#aaaaaa";
     }
   },
   mounted: function mounted() {}

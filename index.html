@@ -27,7 +27,7 @@
                     <div>
                         <a v-for="link in linkNavbar">{{link}}</a>
                         <span>
-                            <i v-for="social in socials" :class="'fab fa-' + social"></i>
+                            <i v-for="(social, index) in socials" :class="'fab fa-' + social" :id="'social' + index" @mouseover="coloraSocial(index)" @mouseleave="scoloraSocial(index)"></i>
                         </span>
                     </div>
                 </div>
