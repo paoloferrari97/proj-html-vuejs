@@ -8,6 +8,16 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+@mixin flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+@mixin align-center {
+  display: flex;
+  align-items: center;
+}
+
 .btn_1 {
   background-color: $sfondo_rosso;
   padding: 20px 30px;
@@ -41,12 +51,10 @@ body {
     & > div {
       margin: 10px;
       border: 0;
-      display: flex;
+      @include align-center;
       justify-content: space-between;
-      align-items: center;
       .price_card_1 {
-        display: flex;
-        flex-direction: column;
+        @include flex-column;
         span {
           font-size: 13px;
           line-height: 12px;

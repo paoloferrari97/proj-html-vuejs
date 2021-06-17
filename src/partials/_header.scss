@@ -3,8 +3,7 @@
   right: 0;
   top: 50%;
   transform: translateY(-50%);
-  display: flex;
-  flex-direction: column;
+  @include flex-column;
   padding: 10px 15px;
   z-index: 2;
   background-color: white;
@@ -39,9 +38,8 @@ header {
     .container.header_main {
       padding: 20px 0;
       color: $scritte_blu_header;
-      display: flex;
+      @include align-center;
       justify-content: space-between;
-      align-items: center;
       .category {
         font-size: 12px;
         display: flex;
