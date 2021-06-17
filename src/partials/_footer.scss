@@ -20,6 +20,46 @@ footer {
         .mail {
           color: $scritte_grigio;
         }
+        & > div {
+          display: flex;
+          flex-wrap: wrap;
+          & > div {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 5px;
+            &:first-child {
+              background-color: #3b5998;
+            }
+            &:nth-child(2) {
+              background-color: #c32aa3;
+            }
+            &:nth-child(3) {
+              background-color: #0077b5;
+            }
+            &:nth-child(4) {
+              background-color: #bd081c;
+            }
+            &:nth-child(5) {
+              background-color: #1da1f2;
+            }
+            &:nth-child(6) {
+              background-color: #ea4c89;
+            }
+            &:nth-child(7) {
+              background-color: #db4437;
+            }
+            &:nth-child(8) {
+              background-color: #00aff0;
+            }
+            i {
+              font-size: 20px;
+            }
+          }
+        }
       }
     }
   }
